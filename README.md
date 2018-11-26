@@ -2,10 +2,10 @@
 
 Client Server program using TCP Sockets and FIFOs
 
-Note:__
-Controller is the Server & Switches are the Clients.__
+Note:<br />
+Controller is the Server & Switches are the Clients.<br />
 
-Run the app from command line:__
+Run the app from command line:<br />
  1) Running Server on one terminal__
   => Usage: ./a3sdn cont nSwitch portNumber"__
   where __
