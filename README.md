@@ -2,18 +2,18 @@
 
 Client Server program using TCP Sockets and FIFOs
 
-Note:<br />
-Controller is the Server & Switches are the Clients.<br />
+Note:  
+Controller is the Server & Switches are the Clients.  
 
-Run the app from command line:<br />
- 1) Running Server on one terminal__
-  => Usage: ./a3sdn cont nSwitch portNumber"__
-  where __
-   cont = controller, __
-   nswitch = number of clients/switches (ex: 2), __
-   portNumber = port Number (ex: 997)__
+Run the app from command line:  
+ 1) Running Server on one terminal  
+  => Usage: ./a3sdn cont nSwitch portNumber"  
+  where   
+   cont = controller,   
+   nswitch = number of clients/switches (ex: 2),   
+   portNumber = port Number (ex: 997)  
   
- 2) Running Client on another terminal__
+ 2) Running Client on another terminal   
   => Usage: ./a3sdn swi trafficFile [null|swj] [null|swj] IPlow-IPhigh serverAddress portNumber__
   where __
   swi = client (ex: sw1, sw2, sw3, etc), __
