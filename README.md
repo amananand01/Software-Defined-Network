@@ -14,13 +14,13 @@ Run the app from command line:
    portNumber = port Number (ex: 997)  
   
  2) Running Client on another terminal   
-  => Usage: ./a3sdn swi trafficFile [null|swj] [null|swj] IPlow-IPhigh serverAddress portNumber__
-  where __
-  swi = client (ex: sw1, sw2, sw3, etc), __
-  trafficFile = test File (ex: t2.dat),__
-  [null|swj] = left connected switch (ex: sw1) (null stands for nothing connected)__
-  [null|swj] = right connected switch (ex: sw3) (null stands for nothing connected)__
-  IPlow-IPhigh = integer-integer (ex: 100-120)______
-  serverAddress = Server Address (ex: localhost, 0.0.0.0 127.0.0.1, etc.)____
-  portNumber = port Number (ex: 997)__
+  => Usage: ./a3sdn swi trafficFile [null|swj] [null|swj] IPlow-IPhigh serverAddress portNumber   
+  where   
+  swi = client (ex: sw1, sw2, sw3, etc),   
+  trafficFile = test File (ex: t2.dat),   
+  [null|swj] = left connected switch (ex: sw1) (null stands for nothing connected),  
+  [null|swj] = right connected switch (ex: sw3) (null stands for nothing connected),  
+  IPlow-IPhigh = integer-integer (ex: 100-120),   
+  serverAddress = Server Address (ex: localhost, 0.0.0.0 127.0.0.1, etc.),   
+  portNumber = port Number (ex: 997)  
   
